@@ -68,7 +68,7 @@ void ft_map_generator(t_map *tmap)
 		else
 			exit++;
 	}
-	for (int e = 0; e < 1; e++){
+	for (int e = 0; e < play; e++){
 		int c_x = (rand() % (x - 1 - 1) + 1);
 		int c_y = (rand() % (y - 1 - 1) + 1);
 		if (map[c_y][c_x] == '0')
